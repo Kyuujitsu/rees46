@@ -15,7 +15,7 @@ type PopularRequest struct {
 	Items            string            `json:"items,omitempty" url:"items,omitempty"`
 	Exclude          string            `json:"exclude,omitempty" url:"exclude,omitempty"`
 	Modification     string            `json:"modification,omitempty" url:"modification,omitempty"`
-	CustomAttributes map[string]string `json:"custom_attributes,omitempty" url:"custom_attributes,omitempty"`
+	CustomAttributes map[string]string `json:"custom_attributes_filter,omitempty" url:"custom_attributes_filter,omitempty"`
 }
 
 type SimilarRequest struct {
@@ -29,7 +29,7 @@ type SimilarRequest struct {
 	Items            string            `json:"items,omitempty" url:"items,omitempty"`
 	Exclude          string            `json:"exclude,omitempty" url:"exclude,omitempty"`
 	Modification     string            `json:"modification,omitempty" url:"modification,omitempty"`
-	CustomAttributes map[string]string `json:"custom_attributes,omitempty" url:"custom_attributes,omitempty"`
+	CustomAttributes map[string]string `json:"custom_attributes_filter,omitempty" url:"custom_attributes_filter,omitempty"`
 }
 
 type AlsoBoughtRequest struct {
@@ -43,7 +43,7 @@ type AlsoBoughtRequest struct {
 	Items            string            `json:"items,omitempty" url:"items,omitempty"`
 	Exclude          string            `json:"exclude,omitempty" url:"exclude,omitempty"`
 	Modification     string            `json:"modification,omitempty" url:"modification,omitempty"`
-	CustomAttributes map[string]string `json:"custom_attributes,omitempty" url:"custom_attributes,omitempty"`
+	CustomAttributes map[string]string `json:"custom_attributes_filter,omitempty" url:"custom_attributes_filter,omitempty"`
 }
 
 type SeeAlsoRequest struct {
@@ -55,7 +55,7 @@ type SeeAlsoRequest struct {
 	Items            string            `json:"items,omitempty" url:"items,omitempty"`
 	Exclude          string            `json:"exclude,omitempty" url:"exclude,omitempty"`
 	Modification     string            `json:"modification,omitempty" url:"modification,omitempty"`
-	CustomAttributes map[string]string `json:"custom_attributes,omitempty" url:"custom_attributes,omitempty"`
+	CustomAttributes map[string]string `json:"custom_attributes_filter,omitempty" url:"custom_attributes_filter,omitempty"`
 }
 
 type InterestingRequest struct {
@@ -68,7 +68,7 @@ type InterestingRequest struct {
 	Items            string            `json:"items,omitempty" url:"items,omitempty"`
 	Exclude          string            `json:"exclude,omitempty" url:"exclude,omitempty"`
 	Modification     string            `json:"modification,omitempty" url:"modification,omitempty"`
-	CustomAttributes map[string]string `json:"custom_attributes,omitempty" url:"custom_attributes,omitempty"`
+	CustomAttributes map[string]string `json:"custom_attributes_filter,omitempty" url:"custom_attributes_filter,omitempty"`
 }
 
 type RecentlyViewedRequest struct {
@@ -79,7 +79,7 @@ type RecentlyViewedRequest struct {
 	Items            string            `json:"items,omitempty" url:"items,omitempty"`
 	Exclude          string            `json:"exclude,omitempty" url:"exclude,omitempty"`
 	Modification     string            `json:"modification,omitempty" url:"modification,omitempty"`
-	CustomAttributes map[string]string `json:"custom_attributes,omitempty" url:"custom_attributes,omitempty"`
+	CustomAttributes map[string]string `json:"custom_attributes_filter,omitempty" url:"custom_attributes_filter,omitempty"`
 }
 
 type BuyingNowRequest struct {
@@ -92,7 +92,7 @@ type BuyingNowRequest struct {
 	Items            string            `json:"items,omitempty" url:"items,omitempty"`
 	Exclude          string            `json:"exclude,omitempty" url:"exclude,omitempty"`
 	Modification     string            `json:"modification,omitempty" url:"modification,omitempty"`
-	CustomAttributes map[string]string `json:"custom_attributes,omitempty" url:"custom_attributes,omitempty"`
+	CustomAttributes map[string]string `json:"custom_attributes_filter,omitempty" url:"custom_attributes_filter,omitempty"`
 }
 
 type DatingRequest struct {
@@ -103,5 +103,5 @@ type DatingRequest struct {
 	Items            string            `json:"items,omitempty" url:"items,omitempty"`
 	Exclude          string            `json:"exclude,omitempty" url:"exclude,omitempty"`
 	Modification     string            `json:"modification,omitempty" url:"modification,omitempty"`
-	CustomAttributes map[string]string `json:"custom_attributes,omitempty" url:"custom_attributes,omitempty"`
+	CustomAttributes map[string]string `json:"custom_attributes_filter,omitempty" url:"custom_attributes_filter,omitempty"`
 }
